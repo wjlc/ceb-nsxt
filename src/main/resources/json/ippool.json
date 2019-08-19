@@ -1,0 +1,2293 @@
+{
+    "results": [
+    {
+        "pool_usage":
+        {
+            "total_ids": 248,
+            "allocated_ids": 0,
+            "free_ids": 248
+        },
+        "subnets": [
+        {
+            "cidr": "169.254.17.0/24",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "169.254.17.3",
+                "end": "169.254.17.250"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "15b4ca2f-192b-4e75-83eb-297d7ae6bd7d",
+        "display_name": "SI_Destination_IP_Pool",
+        "description": "ServiceInsertion_IP_Pool_for_NS_insertion_at_T0/T1",
+        "_create_user": "system",
+        "_create_time": 1553070816830,
+        "_last_modified_user": "system",
+        "_last_modified_time": 1553070816830,
+        "_system_owned": true,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+      {
+        "pool_usage":
+        {
+            "total_ids": 1022,
+            "allocated_ids": 0,
+            "free_ids": 1022
+        },
+        "subnets": [
+        {
+            "cidr": "10.10.0.0/22",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.10.0.1",
+                "end": "10.10.3.254"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "9393a2b8-57dc-4a00-aaf3-46be5a42a392",
+        "display_name": "SI_Service_Chain_ID_IP_Pool",
+        "description": "SI_Service_Chain_ID_IP_Pool for unique ID creation of Service Chain",
+        "_create_user": "system",
+        "_create_time": 1552532904025,
+        "_last_modified_user": "system",
+        "_last_modified_time": 1552532904025,
+        "_system_owned": true,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 248,
+            "allocated_ids": 0,
+            "free_ids": 248
+        },
+        "subnets": [
+        {
+            "cidr": "169.254.16.0/24",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "169.254.16.3",
+                "end": "169.254.16.250"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "6215eb8f-90d2-4d30-bd54-bde2e5cf85f4",
+        "display_name": "SI_Source_IP_Pool",
+        "description": "ServiceInsertion_IP_Pool_for_NS_insertion_at_T0/T1",
+        "_create_user": "system",
+        "_create_time": 1553070816828,
+        "_last_modified_user": "system",
+        "_last_modified_time": 1553070816828,
+        "_system_owned": true,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 5,
+            "free_ids": 24
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.20.128/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.20.130",
+                "end": "10.213.20.158"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "b0b53bdd-a284-44ec-abc3-0229e699a4ff",
+        "display_name": "cck8s-td-alauda-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.20.128/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "2251088f-b2c6-4e98-b604-81ce401be80a"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "cck8s-td"
+        }],
+        "_create_user": "cck8s-ncp",
+        "_create_time": 1554369783451,
+        "_last_modified_user": "cck8s-ncp",
+        "_last_modified_time": 1554369783451,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.20.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.20.66",
+                "end": "10.213.20.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "d6b144a5-b40f-4988-b98c-4689c3b0cb08",
+        "display_name": "cck8s-td-default-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.20.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "0b78bac2-a83b-4170-826f-fb8daf341562"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "cck8s-td"
+        }],
+        "_create_user": "cck8s-ncp",
+        "_create_time": 1554283356007,
+        "_last_modified_user": "cck8s-ncp",
+        "_last_modified_time": 1554283356007,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.110.0/26",
+            "gateway_ip": "10.213.110.62",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.110.3",
+                "end": "10.213.110.3"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "27531b71-6213-430a-a705-9a5c64e75afa",
+        "display_name": "cck8s-td-ingresslb-ippool",
+        "_create_user": "admin",
+        "_create_time": 1554282326482,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554282326482,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.20.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.20.34",
+                "end": "10.213.20.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "727f0f3d-aa7e-45f0-88cd-1e7546fa39da",
+        "display_name": "cck8s-td-kube-public-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.20.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "6f173a9b-8590-4455-a474-500bcd8a1e34"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "cck8s-td"
+        }],
+        "_create_user": "cck8s-ncp",
+        "_create_time": 1554283355951,
+        "_last_modified_user": "cck8s-ncp",
+        "_last_modified_time": 1554283355951,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.20.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.20.2",
+                "end": "10.213.20.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "eae3ab68-2764-4c4d-bb70-63dc3d459bb1",
+        "display_name": "cck8s-td-kube-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.20.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "2258dff9-9708-4209-8c6c-fc769cb168fb"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "cck8s-td"
+        }],
+        "_create_user": "cck8s-ncp",
+        "_create_time": 1554283355832,
+        "_last_modified_user": "cck8s-ncp",
+        "_last_modified_time": 1554283355832,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.20.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.20.98",
+                "end": "10.213.20.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "ddbaf76d-6153-4437-9157-d7a26e2dd2ab",
+        "display_name": "cck8s-td-system-cc-master-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.20.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "a0da860d-069d-4f49-9268-3c842747fabe"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "cck8s-td"
+        }],
+        "_create_user": "cck8s-ncp",
+        "_create_time": 1554286157641,
+        "_last_modified_user": "cck8s-ncp",
+        "_last_modified_time": 1554286157641,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.110.0/26",
+            "gateway_ip": "10.213.110.62",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.110.5",
+                "end": "10.213.110.5"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "75692394-fb97-4ce9-871f-2c2b86466f67",
+        "display_name": "devcpaas-ingresslb-ippool",
+        "_create_user": "admin",
+        "_create_time": 1557205659461,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1557205659461,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.106.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.106.2",
+                "end": "10.213.106.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "46163646-1d6b-4efd-8167-d2ef3a16e7c0",
+        "display_name": "devcpaas-w01-default-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.106.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "291bd540-2d7e-4798-8d0f-20d756f5290f"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaas-w01"
+        }],
+        "_create_user": "devcpaas-w01-ncp",
+        "_create_time": 1558082260936,
+        "_last_modified_user": "devcpaas-w01-ncp",
+        "_last_modified_time": 1558082260936,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.110.0/26",
+            "gateway_ip": "10.213.110.62",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.110.6",
+                "end": "10.213.110.6"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "ca64f350-6914-4dd6-bffc-1458fdabb288",
+        "display_name": "devcpaas-w01-ingresslb-ippool",
+        "_create_user": "admin",
+        "_create_time": 1558073997498,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1558073997498,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.106.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.106.34",
+                "end": "10.213.106.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "ea046804-9667-4fe9-8e4a-13f2cdb8b3e2",
+        "display_name": "devcpaas-w01-kube-public-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.106.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "355bbcce-72c9-4dbf-b936-24e0f9354aa2"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaas-w01"
+        }],
+        "_create_user": "devcpaas-w01-ncp",
+        "_create_time": 1558082260964,
+        "_last_modified_user": "devcpaas-w01-ncp",
+        "_last_modified_time": 1558082260964,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 2,
+            "free_ids": 27
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.106.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.106.66",
+                "end": "10.213.106.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "578019e5-07dc-456b-8812-c2800ddb2762",
+        "display_name": "devcpaas-w01-kube-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.106.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "e4feddff-099b-4992-8f7b-3f4b6b453eaa"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaas-w01"
+        }],
+        "_create_user": "devcpaas-w01-ncp",
+        "_create_time": 1558082261023,
+        "_last_modified_user": "devcpaas-w01-ncp",
+        "_last_modified_time": 1558082261023,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.106.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.106.98",
+                "end": "10.213.106.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "515dafb0-d602-4133-a9e4-2fecdcea577b",
+        "display_name": "devcpaas-w01-logtest-lc-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.106.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "7089b710-3426-429b-99fd-345b86d4d429"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaas-w01"
+        }],
+        "_create_user": "devcpaas-w01-ncp",
+        "_create_time": 1558316924925,
+        "_last_modified_user": "devcpaas-w01-ncp",
+        "_last_modified_time": 1558316924925,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 2,
+            "free_ids": 27
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.98",
+                "end": "10.213.104.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "e45e0a4c-044c-4c64-9a16-e77d4bb2febd",
+        "display_name": "devcpaask8s-alauda-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "1e313ea6-7d00-4262-b0a4-09a733788740"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969622998,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969622998,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 2,
+            "free_ids": 27
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.160/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.162",
+                "end": "10.213.104.190"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "6241b93d-f3c2-4f29-a833-fb1d44f3b593",
+        "display_name": "devcpaask8s-alauda-system-1",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.160/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "6f25fdfb-7f59-42f9-948e-abf81d53794f"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969625818,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969625818,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 27,
+            "free_ids": 2
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.192/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.194",
+                "end": "10.213.104.222"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "5c4f044f-0d32-4507-b3ec-fc12af87ebdd",
+        "display_name": "devcpaask8s-alauda-system-2",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.192/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "3c31d6c0-1a6f-4907-997f-d07ea30dd48f"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969989971,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969989971,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 26,
+            "free_ids": 3
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.224/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.226",
+                "end": "10.213.104.254"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "0522337e-b0ba-4d53-a0c8-2f19cf9cf55f",
+        "display_name": "devcpaask8s-alauda-system-3",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.224/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "85c2bbc8-a98f-4157-9d18-47194c1dff1b"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969998661,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969998661,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.2",
+                "end": "10.213.104.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "85e7d022-4679-4c8c-8c61-17be6af7f262",
+        "display_name": "devcpaask8s-default-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "6629e067-3f08-4cd3-bbf7-bc6f262c89d5"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969622695,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557971901479,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 2
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.66",
+                "end": "10.213.104.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "40c890f1-26ee-4c0d-bc23-6cac41afc7fc",
+        "display_name": "devcpaask8s-global-credentials-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "510bdbd2-4007-43cd-bbdb-abab35f60c01"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969622964,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969622964,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.34",
+                "end": "10.213.104.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "853dece4-b247-408e-a2e0-e1365b1883bb",
+        "display_name": "devcpaask8s-kube-public-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "bd87e042-f5ce-4e05-8b83-aa7613229268"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969622948,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969622948,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.104.128/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.104.130",
+                "end": "10.213.104.158"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "91577685-a1d5-4c6a-a13d-3095b701b30c",
+        "display_name": "devcpaask8s-kube-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.104.128/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "9233c9de-a402-415c-903c-a1685ba6b671"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devcpaask8s"
+        }],
+        "_create_user": "devcpaas-ncp",
+        "_create_time": 1557969623509,
+        "_last_modified_user": "devcpaas-ncp",
+        "_last_modified_time": 1557969623509,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 5,
+            "free_ids": 24
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.98",
+                "end": "10.213.4.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "27316ac3-a82c-4491-89a2-36880a44165d",
+        "display_name": "devk8s-td-alauda-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "de363e83-3ee0-4026-8662-9451a67e6f36"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554709938425,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554709938425,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.192/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.194",
+                "end": "10.213.4.222"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "4c1fe4d7-a257-4777-bbb9-68a08017478c",
+        "display_name": "devk8s-td-cmps-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.192/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "a43a1390-7ca9-47fe-977a-9c611cf258b0"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554961989357,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554961989357,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 2,
+            "free_ids": 27
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.128/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.130",
+                "end": "10.213.4.158"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "0fd8026f-02dd-489c-a880-dc60d7d20b47",
+        "display_name": "devk8s-td-cpaas-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.128/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "98f78670-52d5-47d1-b3af-ff64c8a7e2f5"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554285204249,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554285204249,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.2",
+                "end": "10.213.5.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "c71807a9-0681-4886-a1c3-87098e67acac",
+        "display_name": "devk8s-td-default-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "18942b27-827c-40be-97b3-bccca3fe6642"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554277770796,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554277770796,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 4,
+            "free_ids": 25
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.98",
+                "end": "10.213.5.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "1611d3fa-4156-492d-9d03-3f9b19b71d86",
+        "display_name": "devk8s-td-eaps-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "7ca1f899-9bd5-4a4a-8111-a92352982583"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554281035207,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554281035207,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.192/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.194",
+                "end": "10.213.5.222"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "c0e132cc-b510-41cf-ba9b-9992b45d98ba",
+        "display_name": "devk8s-td-edsp-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.192/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "1eede900-f03b-4365-a044-cf36ef110f7c"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554281701864,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554281701864,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.224/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.226",
+                "end": "10.213.5.254"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "2e04d55e-e6c4-401b-8d16-210785057c91",
+        "display_name": "devk8s-td-edsp-test-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.224/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "d1624602-7463-4d2c-8be6-7275b617a0d5"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554281761054,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554281761054,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.128/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.130",
+                "end": "10.213.5.158"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "fb9e40ba-31eb-4d82-be0f-5dfb54cd473d",
+        "display_name": "devk8s-td-gitlab-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.128/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "f617a87c-2813-486d-ab89-09a38107cad6"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1557309510315,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1557309510315,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.160/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.162",
+                "end": "10.213.4.190"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "81acdf0d-3ded-4e2f-9412-ebb5c0828012",
+        "display_name": "devk8s-td-ims-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.160/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "81806018-d7b6-4c3a-8503-28792617df3d"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554341938725,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554341938725,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.110.0/26",
+            "gateway_ip": "10.213.110.62",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.110.2",
+                "end": "10.213.110.2"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "254c0432-a8ca-41d1-afa7-3bc88e562c3f",
+        "display_name": "devk8s-td-ingresslb-ippool",
+        "_create_user": "admin",
+        "_create_time": 1554276118928,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554276118928,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.34",
+                "end": "10.213.5.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "986e5682-e092-4718-9648-8bdf5902a4ab",
+        "display_name": "devk8s-td-kube-public-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "08e5947d-6568-4ff4-9815-43342d050a3c"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554277770834,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554277770834,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 3,
+            "free_ids": 26
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.66",
+                "end": "10.213.5.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "aa9c6277-ad87-449e-a3a2-f7d2ce690b45",
+        "display_name": "devk8s-td-kube-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "6557a3dc-5750-41e5-9ff5-d7a817ffe9fe"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554277770841,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554277770841,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.2",
+                "end": "10.213.4.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "1e7cbcc6-dba4-4190-9749-fde81e01b5aa",
+        "display_name": "devk8s-td-maop-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "dbd4818f-eb3a-4d03-a19d-f042216d3b82"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554282179023,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554282179023,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 13,
+            "free_ids": 16
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.66",
+                "end": "10.213.4.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "09a36edb-115e-41b5-ae45-d71cda56f1a2",
+        "display_name": "devk8s-td-mpoin-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "d4397a74-b2ad-4b22-8524-f344a664fa77"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554284529604,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554284529604,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.5.160/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.5.162",
+                "end": "10.213.5.190"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "f952f81d-558b-4a23-b054-5b2cbaf7f487",
+        "display_name": "devk8s-td-nft-dev-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.5.160/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "e34da1f1-f7cf-4577-b1ed-c708f212c932"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554281641503,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554281641503,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 1,
+            "free_ids": 28
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.4.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.4.34",
+                "end": "10.213.4.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "f8216714-c44a-4f8a-8a07-1ff366d33814",
+        "display_name": "devk8s-td-poin-test-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.4.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "7fb27022-7f94-4ca0-a11c-6f7997032978"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "devk8s-td"
+        }],
+        "_create_user": "devk8s-ncp",
+        "_create_time": 1554283028729,
+        "_last_modified_user": "devk8s-ncp",
+        "_last_modified_time": 1554283028729,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 18,
+            "free_ids": 11
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.32/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.34",
+                "end": "10.213.0.62"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "68e5ae96-45b3-41ed-a8a9-bf411a89f3e8",
+        "display_name": "gk8s-td-alauda-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.32/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "a78dcc96-f001-42f3-b79d-56457ead3bee"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728193835,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728193835,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 15,
+            "free_ids": 14
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.128/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.130",
+                "end": "10.213.0.158"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "e66c6575-488b-4337-8072-728e60ee644c",
+        "display_name": "gk8s-td-alauda-system-1",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.128/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "31a9d06a-01db-4e75-a9d2-5288e99b3098"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728197687,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728197687,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 22,
+            "free_ids": 7
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.160/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.162",
+                "end": "10.213.0.190"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "8738e5cc-163d-40cb-a7eb-ceb6e729ff74",
+        "display_name": "gk8s-td-alauda-system-2",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.160/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "3808587a-2d3c-478a-ab33-cf09de2cbfba"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728241564,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728241564,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 6,
+            "free_ids": 23
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.192/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.194",
+                "end": "10.213.0.222"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "522394f1-b7c1-4481-9e1f-ebc91cd401df",
+        "display_name": "gk8s-td-alauda-system-3",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.192/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "764d80d0-0480-42e9-affe-8ab3592a4a61"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728250726,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728250726,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 6,
+            "free_ids": 23
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.224/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.226",
+                "end": "10.213.0.254"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "61cbcc4f-abb2-4ce3-81a2-ace77badf6a3",
+        "display_name": "gk8s-td-alauda-system-4",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.224/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "cdd62504-fcfb-46c3-b53a-440136fe4540"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557730486369,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557730486369,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.96/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.98",
+                "end": "10.213.0.126"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "48038847-0a58-4add-9cc8-5db38f654d07",
+        "display_name": "gk8s-td-default-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.96/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "4d8f9ed6-7cd0-423d-8b3a-d25dc3cb1427"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728193972,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557730866845,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 2
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.110.0/26",
+            "gateway_ip": "10.213.110.62",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.110.1",
+                "end": "10.213.110.1"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "873ec466-c171-4687-b2bc-ccc6046fd82c",
+        "display_name": "gk8s-td-ingresslb-ippool",
+        "_create_user": "admin",
+        "_create_time": 1557716821530,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1557716821530,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 0,
+            "free_ids": 29
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.64/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.66",
+                "end": "10.213.0.94"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "afbfdcbc-2a33-4973-9b62-6530df5259f6",
+        "display_name": "gk8s-td-kube-public-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.64/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "0ac46334-ed68-471f-a02b-833bc7bc6f21"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728193890,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728193890,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 29,
+            "allocated_ids": 4,
+            "free_ids": 25
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.0.0/27",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.0.2",
+                "end": "10.213.0.30"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "dd9d6127-5df0-43f2-9882-9ff4b56d2d0d",
+        "display_name": "gk8s-td-kube-system-0",
+        "tags": [
+        {
+            "scope": "ncp/subnet",
+            "tag": "10.213.0.0/27"
+        },
+        {
+            "scope": "ncp/subnet_id",
+            "tag": "46863a80-d6fd-43d3-b9fa-efb118f74566"
+        },
+        {
+            "scope": "ncp/version",
+            "tag": "1.2.0"
+        },
+        {
+            "scope": "ncp/cluster",
+            "tag": "gk8s-td"
+        }],
+        "_create_user": "gk8s-ncp",
+        "_create_time": 1557728193727,
+        "_last_modified_user": "gk8s-ncp",
+        "_last_modified_time": 1557728193727,
+        "_system_owned": false,
+        "_protection": "REQUIRE_OVERRIDE",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.3",
+                "end": "10.213.108.3"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "c8b834ec-c8a9-43b4-bf5c-b1ee8d6b24bf",
+        "display_name": "l4lb-cck8s-td-coredns-108.3-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:cck8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1554282265569,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554283549796,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 1
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.2",
+                "end": "10.213.108.2"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "e1b0f5f1-25a3-4b35-9be5-fdb3f34097c1",
+        "display_name": "l4lb-devk8s-td-coredns-108.2-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:devk8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1554275977519,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554281888739,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 2
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 0,
+            "free_ids": 1
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.5",
+                "end": "10.213.108.5"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "06cf1d76-1f71-40c2-985e-52c0e39af745",
+        "display_name": "l4lb-devk8s-td-eaps-108.5-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:devk8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1554791229849,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554791292395,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 3
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.7",
+                "end": "10.213.108.7"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "face02c4-f1dd-432e-85d6-6456068ca5d8",
+        "display_name": "l4lb-devk8s-td-gitlab-108.7-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:devk8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1558320919657,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1558321038635,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 2
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 1,
+            "free_ids": 0
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.6",
+                "end": "10.213.108.6"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "e0f556c1-902c-48eb-902b-fa9a20e91be4",
+        "display_name": "l4lb-devk8s-td-pointest-108.6-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:devk8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1555396550770,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1555396835909,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 3
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 0,
+            "free_ids": 1
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.1",
+                "end": "10.213.108.1"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "b1249a81-65e2-4f54-9b1d-5e8162d9844c",
+        "display_name": "l4lb-gk8s-td-coredns-108.1-ippool",
+        "_create_user": "admin",
+        "_create_time": 1557716604500,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1557716604500,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 0
+    },
+    {
+        "pool_usage":
+        {
+            "total_ids": 1,
+            "allocated_ids": 0,
+            "free_ids": 1
+        },
+        "subnets": [
+        {
+            "cidr": "10.213.108.0/24",
+            "gateway_ip": "10.213.108.254",
+            "dns_nameservers": [],
+            "allocation_ranges": [
+            {
+                "start": "10.213.108.4",
+                "end": "10.213.108.4"
+            }]
+        }],
+        "resource_type": "IpPool",
+        "id": "9837f578-c12e-47e6-8e85-6f51c2d51d78",
+        "display_name": "l4lb-gk8s-td-jenkins-108.4-ippool",
+        "tags": [
+        {
+            "scope": "ncp/owner",
+            "tag": "cluster:gk8s-td"
+        }],
+        "_create_user": "admin",
+        "_create_time": 1554274092436,
+        "_last_modified_user": "admin",
+        "_last_modified_time": 1554274139128,
+        "_system_owned": false,
+        "_protection": "NOT_PROTECTED",
+        "_revision": 2
+    }],
+    "result_count": 55,
+    "sort_by": "display_name",
+    "sort_ascending": true
+}

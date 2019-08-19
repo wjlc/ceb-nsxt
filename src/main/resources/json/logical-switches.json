@@ -1,0 +1,2730 @@
+{
+  "results" : [ {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69648,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "b0b53bdd-a284-44ec-abc3-0229e699a4ff",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "87d355da-ea92-4a47-aa02-0a89ea7845f2",
+    "display_name" : "cck8s-td-alauda-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4bb0860a-560c-11e9-aa8c-00505698ced8"
+    }, {
+      "scope" : "name",
+      "tag" : "alauda-system"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554369783532,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554369783532,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69764,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "d6b144a5-b40f-4988-b98c-4689c3b0cb08",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "de08759e-5662-413b-b065-7f830f71908d",
+    "display_name" : "cck8s-td-default-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "default"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "0d090e63-55ef-11e9-8aa3-00505698424c"
+    }, {
+      "scope" : "alauda-registered-region",
+      "tag" : "cck8s-td"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554283356136,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554283356136,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69763,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "727f0f3d-aa7e-45f0-88cd-1e7546fa39da",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "c92d84ff-54b0-45e3-b050-9f7b7d1ec3f4",
+    "display_name" : "cck8s-td-kube-public-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-public"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "0f6f8996-55ef-11e9-8aa3-00505698424c"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554283356097,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554283356097,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69762,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "eae3ab68-2764-4c4d-bb70-63dc3d459bb1",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "8a0903b3-1306-413f-88f7-410ef1451833",
+    "display_name" : "cck8s-td-kube-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "0d9ed6f1-55ef-11e9-8aa3-00505698424c"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554283355942,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554283355942,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69692,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "ddbaf76d-6153-4437-9157-d7a26e2dd2ab",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "d07254a0-2153-4888-9298-1fd0482d0c23",
+    "display_name" : "cck8s-td-system-cc-master-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "system-cc-master"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "7086e1b3-55f7-11e9-aa8c-00505698ced8"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554286157738,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554286157738,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69689,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "46163646-1d6b-4efd-8167-d2ef3a16e7c0",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "eaa2db79-42f1-4be1-9c95-290461b79635",
+    "display_name" : "devcpaas-w01-default-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaas-w01"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "default"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "a14e76e4-7875-11e9-9162-00505698de7c"
+    }, {
+      "scope" : "alauda-registered-region",
+      "tag" : "devcpaas-w01"
+    } ],
+    "_create_user" : "devcpaas-w01-ncp",
+    "_create_time" : 1558082261181,
+    "_last_modified_user" : "devcpaas-w01-ncp",
+    "_last_modified_time" : 1558082261181,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69688,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "ea046804-9667-4fe9-8e4a-13f2cdb8b3e2",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "87bf4dae-1d36-42e6-851c-811bc1e9b591",
+    "display_name" : "devcpaas-w01-kube-public-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaas-w01"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-public"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "a2f96d94-7875-11e9-9162-00505698de7c"
+    } ],
+    "_create_user" : "devcpaas-w01-ncp",
+    "_create_time" : 1558082261165,
+    "_last_modified_user" : "devcpaas-w01-ncp",
+    "_last_modified_time" : 1558082261165,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69695,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "578019e5-07dc-456b-8812-c2800ddb2762",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "934839e2-8d32-4a45-8bef-49d7a7226531",
+    "display_name" : "devcpaas-w01-kube-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaas-w01"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "a1e4ccb7-7875-11e9-9162-00505698de7c"
+    } ],
+    "_create_user" : "devcpaas-w01-ncp",
+    "_create_time" : 1558082261181,
+    "_last_modified_user" : "devcpaas-w01-ncp",
+    "_last_modified_time" : 1558082261181,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69699,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "515dafb0-d602-4133-a9e4-2fecdcea577b",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "768bd66b-e47b-48f4-8bbf-787de85d7654",
+    "display_name" : "devcpaas-w01-logtest-lc-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaas-w01"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "logtest-lc"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "ee243c3a-7aa0-11e9-bb4d-00505698f9ff"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "logtest"
+    } ],
+    "_create_user" : "devcpaas-w01-ncp",
+    "_create_time" : 1558316925017,
+    "_last_modified_user" : "devcpaas-w01-ncp",
+    "_last_modified_time" : 1558316925017,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69675,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "e45e0a4c-044c-4c64-9a16-e77d4bb2febd",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "e08465a5-9b18-4036-96e2-ff3b9cd848ef",
+    "display_name" : "devcpaask8s-alauda-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4439cff0-76de-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969623180,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969623180,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69682,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "6241b93d-f3c2-4f29-a833-fb1d44f3b593",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "8fd76db0-7112-4907-89aa-2e8670dd6e06",
+    "display_name" : "devcpaask8s-alauda-system-1",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4439cff0-76de-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969625914,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969625914,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69683,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "5c4f044f-0d32-4507-b3ec-fc12af87ebdd",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "20464631-e4f5-4027-b5f2-46314858db55",
+    "display_name" : "devcpaask8s-alauda-system-2",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4439cff0-76de-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969990072,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969990072,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69684,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "0522337e-b0ba-4d53-a0c8-2f19cf9cf55f",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "edd8d579-2934-4c52-b912-71cb4cb84642",
+    "display_name" : "devcpaask8s-alauda-system-3",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4439cff0-76de-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969998770,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969998770,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69666,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "85e7d022-4679-4c8c-8c61-17be6af7f262",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "9f7acda7-3bf9-4e3a-b0fd-51ead4d905b9",
+    "display_name" : "devcpaask8s-default-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "default"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "cc9e5242-76dd-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    }, {
+      "scope" : "alauda-registered-region",
+      "tag" : "devcpaask8s"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969622927,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557971901446,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 2,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69674,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "40c890f1-26ee-4c0d-bc23-6cac41afc7fc",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "0ddd46fa-af24-4840-a878-7337bdb4a59f",
+    "display_name" : "devcpaask8s-global-credentials-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "global-credentials"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "a608c0ac-76de-11e9-b1db-0050569857b9"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969623115,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969623115,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69673,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "853dece4-b247-408e-a2e0-e1365b1883bb",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "f1df3c6f-05f9-4751-8dbc-60b62e9d076f",
+    "display_name" : "devcpaask8s-kube-public-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-public"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "cf05a052-76dd-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969623073,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969623073,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69680,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "91577685-a1d5-4c6a-a13d-3095b701b30c",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "296aa7d3-b509-4ef3-bbb8-e58b2a14e799",
+    "display_name" : "devcpaask8s-kube-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "cd301408-76dd-11e9-87d3-00505698e4ae"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "system"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969623628,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969623628,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69645,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "27316ac3-a82c-4491-89a2-36880a44165d",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "7e908d72-9395-449f-ac15-385f31bdcad7",
+    "display_name" : "devk8s-td-alauda-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "20a28d5a-59d3-11e9-81b2-005056986f0d"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554709938479,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554709938479,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69639,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "4c1fe4d7-a257-4777-bbb9-68a08017478c",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "60f56b32-42ea-43f0-9966-f147c4b34e9d",
+    "display_name" : "devk8s-td-cmps-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "cmps-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "1574d970-5c1e-11e9-9d29-00505698a3fe"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "cmps"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554961989452,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554961989452,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69690,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "0fd8026f-02dd-489c-a880-dc60d7d20b47",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "b4724f74-8068-4d64-a24f-2550fadf3de9",
+    "display_name" : "devk8s-td-cpaas-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "cpaas-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "521d6688-55f6-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "cpaas"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554285204338,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554285204338,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69702,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "65ac5aa3-43c2-43bf-a7b1-a854d4d5396a",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "8b57d64d-3d8d-461e-b68e-680dfaec35a7",
+    "display_name" : "devk8s-td-dart-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "dart-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "bbfea1d8-7b76-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "dart"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1558408550706,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1558408550706,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69739,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "c71807a9-0681-4886-a1c3-87098e67acac",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "438721a5-733d-4a47-b6e5-6b257e6c3b5e",
+    "display_name" : "devk8s-td-default-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "default"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "bdb7f99f-55e2-11e9-af21-005056986f0d"
+    }, {
+      "scope" : "alauda-registered-region",
+      "tag" : "devk8s-td"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554277770954,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554277770954,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69745,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "1611d3fa-4156-492d-9d03-3f9b19b71d86",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "77a4ac8c-2a5c-4de7-8666-40e5987799d7",
+    "display_name" : "devk8s-td-eaps-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "eaps-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "9d26486c-55ec-11e9-9d29-00505698a3fe"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "eaps"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554281035293,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554281035293,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69751,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "c0e132cc-b510-41cf-ba9b-9992b45d98ba",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "f2ba231c-4d2c-45ed-9ee0-60d23703b6c7",
+    "display_name" : "devk8s-td-edsp-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "edsp-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "2a86652f-55ee-11e9-9d29-00505698a3fe"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "edsp"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554281701943,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554281701943,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69753,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "2e04d55e-e6c4-401b-8d16-210785057c91",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "00b726f0-f745-4c19-ac38-f7e01055eda7",
+    "display_name" : "devk8s-td-edsp-test-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "edsp-test"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "4dc8c08c-55ee-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "edsp"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554281761133,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554281761133,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69642,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "fb9e40ba-31eb-4d82-be0f-5dfb54cd473d",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "d3599c6a-925a-4511-86df-2ba136272d14",
+    "display_name" : "devk8s-td-gitlab-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "gitlab-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "d4f3806c-7177-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "gitlab"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1557309510419,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1557309510419,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69644,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "81acdf0d-3ded-4e2f-9412-ebb5c0828012",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "44e29a34-742c-40c0-9879-711acd1ed637",
+    "display_name" : "devk8s-td-ims-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "ims-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "6a68e13c-567a-11e9-81b2-005056986f0d"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "ims"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554341938782,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554341938782,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69740,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "986e5682-e092-4718-9648-8bdf5902a4ab",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "26aa0ed2-5107-423f-87f1-b52589fca14c",
+    "display_name" : "devk8s-td-kube-public-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-public"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "c01e9183-55e2-11e9-af21-005056986f0d"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554277770955,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554277770955,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69741,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "aa9c6277-ad87-449e-a3a2-f7d2ce690b45",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "d4bba9cf-a73d-4f0a-9a82-b9fe75a0e162",
+    "display_name" : "devk8s-td-kube-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "be4dc551-55e2-11e9-af21-005056986f0d"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554277770983,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554277770983,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69755,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "1e7cbcc6-dba4-4190-9749-fde81e01b5aa",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "454de61f-d4e0-4b8b-af67-65b92fb6f280",
+    "display_name" : "devk8s-td-maop-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "maop-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "46eae536-55ef-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "maop"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554282179089,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554282179089,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69700,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "09a36edb-115e-41b5-ae45-d71cda56f1a2",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "e7e82170-7942-4e3e-9144-189b5072cde1",
+    "display_name" : "devk8s-td-mpoin-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "mpoin-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "bffb83a6-55f4-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "mpoin"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554284529734,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554284529734,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69749,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "f952f81d-558b-4a23-b054-5b2cbaf7f487",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "fcac7b32-79fb-451f-a940-fea29eb125de",
+    "display_name" : "devk8s-td-nft-dev-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "nft-dev"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "0687f945-55ee-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "nft"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554281641630,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554281641630,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69757,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "f8216714-c44a-4f8a-8a07-1ff366d33814",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "ce27673c-f97f-40c8-96a7-7d37480fa9a4",
+    "display_name" : "devk8s-td-poin-test-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "poin-test"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "414d6d44-55f1-11e9-bbc8-005056984751"
+    }, {
+      "scope" : "project.alauda.io/name",
+      "tag" : "poin"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554283028837,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554283028837,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69658,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "68e5ae96-45b3-41ed-a8a9-bf411a89f3e8",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "4db60089-557e-4b38-b73e-1f1efae98e15",
+    "display_name" : "gk8s-td-alauda-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "66f36b59-752f-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728193990,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728193990,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69668,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "e66c6575-488b-4337-8072-728e60ee644c",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "e3a6c752-39a2-4b5f-a7c8-a54fda96f734",
+    "display_name" : "gk8s-td-alauda-system-1",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "66f36b59-752f-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728197772,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728197772,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69669,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "8738e5cc-163d-40cb-a7eb-ceb6e729ff74",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "4375402a-e630-4df1-bc2c-60adda67dfbb",
+    "display_name" : "gk8s-td-alauda-system-2",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "66f36b59-752f-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728241625,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728241625,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69670,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "522394f1-b7c1-4481-9e1f-ebc91cd401df",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "62dd581c-d607-4434-9a51-f68ed59bf404",
+    "display_name" : "gk8s-td-alauda-system-3",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "66f36b59-752f-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728250771,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728250771,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69671,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "61cbcc4f-abb2-4ce3-81a2-ace77badf6a3",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "1b9ef7ca-025e-4c9b-a040-8a4757b491e2",
+    "display_name" : "gk8s-td-alauda-system-4",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "alauda-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "66f36b59-752f-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557730486424,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557730486424,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69660,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "48038847-0a58-4add-9cc8-5db38f654d07",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "46c41ff5-c292-4193-95cd-3140c8698957",
+    "display_name" : "gk8s-td-default-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "default"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "bc65c4e1-752e-11e9-a0e7-005056982fc2"
+    }, {
+      "scope" : "alauda-registered-region",
+      "tag" : "gk8s-td"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728194135,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557730866812,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 2,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69659,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "afbfdcbc-2a33-4973-9b62-6530df5259f6",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "9a7d1056-fb81-420e-9365-32e562cc3525",
+    "display_name" : "gk8s-td-kube-public-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-public"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "be0e53ec-752e-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728194072,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728194072,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69657,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "ip_pool_id" : "dd9d6127-5df0-43f2-9882-9ff4b56d2d0d",
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "2144d279-930d-4541-9d7c-76d25f7ae5de",
+    "display_name" : "gk8s-td-kube-system-0",
+    "tags" : [ {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/project",
+      "tag" : "kube-system"
+    }, {
+      "scope" : "ncp/project_uid",
+      "tag" : "bcfa974a-752e-11e9-a0e7-005056982fc2"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728193831,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728193831,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69760,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "dc3b69f2-732e-4f3c-8cbe-44e730c72564",
+    "display_name" : "lb-cck8s-td-hxqky",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "41e3bf7b-4146-42b2-a233-09698e7a80ee"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "cck8s-ncp",
+    "_create_time" : 1554283354631,
+    "_last_modified_user" : "cck8s-ncp",
+    "_last_modified_time" : 1554283354631,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69633,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "f90e2da4-13e3-4c1d-ba01-376f95b17c0e",
+    "display_name" : "lb-cck8s-td-lkaft",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "0e7e87d1-8442-46dd-9613-6b650192d0cf"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "cck8s-td"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "admin",
+    "_create_time" : 1553491256601,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1553491256601,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69685,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "a81882e5-f951-440f-99fa-88297b73cf0e",
+    "display_name" : "lb-devcpaas-w01-socjz",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "27c15201-72c6-4b64-b792-9ce5d4b00ae9"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaas-w01"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "devcpaas-w01-ncp",
+    "_create_time" : 1558082260117,
+    "_last_modified_user" : "devcpaas-w01-ncp",
+    "_last_modified_time" : 1558082260117,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69665,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "b2fd4d76-167f-4fba-9e0b-8d1c3a784b31",
+    "display_name" : "lb-devcpaask8s-eluog",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "6c146d36-cafc-404a-8597-e0f33b6d6971"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devcpaask8s"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "devcpaas-ncp",
+    "_create_time" : 1557969621725,
+    "_last_modified_user" : "devcpaas-ncp",
+    "_last_modified_time" : 1557969621725,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69736,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "4986958d-253e-463f-bbbf-d5adae111fa9",
+    "display_name" : "lb-devk8s-td-zwpmp",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "28c515a4-c3bf-4992-8832-b22c798da83b"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "devk8s-td"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "devk8s-ncp",
+    "_create_time" : 1554277769938,
+    "_last_modified_user" : "devk8s-ncp",
+    "_last_modified_time" : 1554277769938,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69652,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "2f00a71f-13c2-4f8b-96bd-b4a9b3084b43",
+    "display_name" : "lb-gk8s-td-bhqhu",
+    "tags" : [ {
+      "scope" : "ncp/lb_resource",
+      "tag" : "true"
+    }, {
+      "scope" : "ncp/lb_router",
+      "tag" : "d6e6db8f-3dc2-413e-a254-70ae2b935a85"
+    }, {
+      "scope" : "ncp/cluster",
+      "tag" : "gk8s-td"
+    }, {
+      "scope" : "ncp/version",
+      "tag" : "1.2.0"
+    } ],
+    "_create_user" : "gk8s-ncp",
+    "_create_time" : 1557728192521,
+    "_last_modified_user" : "gk8s-ncp",
+    "_last_modified_time" : 1557728192521,
+    "_system_owned" : false,
+    "_protection" : "REQUIRE_OVERRIDE",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69637,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "72645c55-343f-4f96-8f60-ded83b05c789",
+    "display_name" : "sitet-compute-overlay-devcpaas-mgt-ls",
+    "description" : "",
+    "tags" : [ ],
+    "_create_user" : "admin",
+    "_create_time" : 1557133859018,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1557133859018,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69635,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "40094f60-bfee-4b68-ae18-582a319da361",
+    "display_name" : "sitet-compute-overlay-devcpaas-pod-ls",
+    "description" : "",
+    "tags" : [ ],
+    "_create_user" : "admin",
+    "_create_time" : 1557133882817,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1557133882817,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69632,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "7932cc4e-e229-40ee-97ef-d5d4c8a5cb72",
+    "display_name" : "sitet-compute-overlay-k8smgt-ls",
+    "description" : "",
+    "tags" : [ ],
+    "_create_user" : "admin",
+    "_create_time" : 1552628728749,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1552641711381,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 1,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "0a899b94-d608-44f4-8f17-a4ec48000901",
+    "vni" : 69638,
+    "admin_state" : "UP",
+    "replication_mode" : "MTEP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "64814784-7896-3901-9741-badeff705639"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "a2b4e14c-a40e-4f93-91cb-95df4c1a3f34",
+    "display_name" : "sitet-compute-overlay-node-ls",
+    "description" : "",
+    "tags" : [ {
+      "scope" : "",
+      "tag" : "sitet-compute-overlay-pod-ls"
+    } ],
+    "_create_user" : "admin",
+    "_create_time" : 1552641744960,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1557133675273,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 1,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  }, {
+    "switch_type" : "DEFAULT",
+    "transport_zone_id" : "d1e9c704-c282-483e-8e78-2dc12dc4cdbd",
+    "vlan" : 3514,
+    "admin_state" : "UP",
+    "address_bindings" : [ ],
+    "switching_profile_ids" : [ {
+      "key" : "SwitchSecuritySwitchingProfile",
+      "value" : "fbc4fb17-83d9-4b53-a286-ccdf04301888"
+    }, {
+      "key" : "SpoofGuardSwitchingProfile",
+      "value" : "fad98876-d7ff-11e4-b9d6-1681e6b88ec1"
+    }, {
+      "key" : "IpDiscoverySwitchingProfile",
+      "value" : "0c403bc9-7773-4680-a5cc-847ed0f9f52e"
+    }, {
+      "key" : "MacManagementSwitchingProfile",
+      "value" : "1e7101c8-cfef-415a-9c8c-ce3d8dd078fb"
+    }, {
+      "key" : "PortMirroringSwitchingProfile",
+      "value" : "93b4b7e8-f116-415d-a50c-3364611b5d09"
+    }, {
+      "key" : "QosSwitchingProfile",
+      "value" : "f313290b-eba8-4262-bd93-fab5026e9495"
+    } ],
+    "hybrid" : false,
+    "resource_type" : "LogicalSwitch",
+    "id" : "a8efdc5d-2b65-41b3-b847-fcb1b83c1ef7",
+    "display_name" : "sitet-edge-uplink01",
+    "description" : "",
+    "tags" : [ ],
+    "_create_user" : "admin",
+    "_create_time" : 1552628872591,
+    "_last_modified_user" : "admin",
+    "_last_modified_time" : 1552628872591,
+    "_system_owned" : false,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 0,
+    "_schema" : "/v1/schema/LogicalSwitch"
+  } ],
+  "result_count" : 52,
+  "sort_by" : "display_name",
+  "sort_ascending" : true
+}
