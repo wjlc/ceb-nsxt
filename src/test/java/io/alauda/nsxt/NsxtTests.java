@@ -1,6 +1,7 @@
 package io.alauda.nsxt;
 
 import io.alauda.nsxt.controller.LocalizationController;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class NsxtTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println(localizationController.getIpPools());
+		Assert.assertEquals("ok", localizationController.getIpPools());
 	}
 
 }
